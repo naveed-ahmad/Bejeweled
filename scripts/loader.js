@@ -11,6 +11,7 @@ window.addEventListener("load", function() {
     ],
     complete: function() {
       console.log("All files have been loaded");
+      jewel.game.showScreen("splash-screen");
     }
     }
   ]);
